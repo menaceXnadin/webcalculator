@@ -97,3 +97,22 @@ body{
   text-align: center;
   background-color: #2C2A2B;
 }
+@media (max-width: 768px) {
+  .btn {
+    padding: 15px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .btn-lr {
+    padding: 15px;
+    width: 140px;
+    height: 60px;
+  }
+
+  #inp-area {
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+  }
+}
